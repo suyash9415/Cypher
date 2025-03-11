@@ -17,7 +17,6 @@ export class GameEngine {
       },
     });
 
-    // Add ground
     const ground = Bodies.rectangle(400, 580, 800, 40, { isStatic: true });
     World.add(this.engine.world, [ground]);
 
